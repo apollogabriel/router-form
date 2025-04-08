@@ -22,14 +22,14 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: '/Jobs',
+      path: '/jobs',
       name: 'jobs',
       
       component: Jobs,
     },
     {
-      path: '/Jobs/:id',
-      name: 'JobDetails',
+      path: '/jobs/:id',
+      name: 'jobDetails',
       component: JobsDetails,
     }
   ],
